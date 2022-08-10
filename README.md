@@ -17,16 +17,21 @@ Below are the two dataframes: "total summary and lot summary" I createdm for sus
 
 ## T-Tests on Suspension Coils
 Below are T-test for each manufacturing lot, and they all differ from each other. The p- values are all close in range but not exactly the same, however that is not enough statistical evidence to say all manufaturing lots are differnt from each other. Also, the mean for each of the individual lots are very close to the population mean of 1,500 PSI.
+
 T-test for all manufacturing lots
+
 ![ttest for all lots](https://user-images.githubusercontent.com/101531875/183815475-372d2e1e-f965-4655-b300-19399354c885.png)
 
 T-test for manufacturing lot 1:
+
 ![ttest lot 1](https://user-images.githubusercontent.com/101531875/183815533-3f2d4e57-5c8d-4570-a40d-ae4b24e82bdf.png)
 
 T-test for manufacturing lot 2:
+
 ![ttest lot 2](https://user-images.githubusercontent.com/101531875/183815614-0b26d04d-3318-4cc0-b483-c00b7259d091.png)
 
 T-test for manufacturing lot 3:
+
 ![ttest lot 3](https://user-images.githubusercontent.com/101531875/183815675-6e64382d-8af0-41ad-ba5e-6590eeafda2d.png)
 
 ## Study Design: MechaCar vs Competition
