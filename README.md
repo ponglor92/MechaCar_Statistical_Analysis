@@ -14,3 +14,25 @@ Below are the two dataframes: "total summary and lot summary" I createdm for sus
 
 ![total summary](https://user-images.githubusercontent.com/101531875/183811059-a3daaf5f-3c9e-495c-907f-7933d6abf071.png)
 ![lot summary](https://user-images.githubusercontent.com/101531875/183813060-c251d9ac-7319-490f-b2d6-6cc7594fa0b2.png)
+
+## T-Tests on Suspension Coils
+Below are T-test for each manufacturing lot, and they all differ from each other. The p- values are all close in range but not exactly the same, however that is not enough statistical evidence to say all manufaturing lots are differnt from each other. Also, the mean for each of the individual lots are very close to the population mean of 1,500 PSI.
+T-test for all manufacturing lots
+![ttest for all lots](https://user-images.githubusercontent.com/101531875/183815475-372d2e1e-f965-4655-b300-19399354c885.png)
+
+T-test for manufacturing lot 1:
+![ttest lot 1](https://user-images.githubusercontent.com/101531875/183815533-3f2d4e57-5c8d-4570-a40d-ae4b24e82bdf.png)
+
+T-test for manufacturing lot 2:
+![ttest lot 2](https://user-images.githubusercontent.com/101531875/183815614-0b26d04d-3318-4cc0-b483-c00b7259d091.png)
+
+T-test for manufacturing lot 3:
+![ttest lot 3](https://user-images.githubusercontent.com/101531875/183815675-6e64382d-8af0-41ad-ba5e-6590eeafda2d.png)
+
+## Study Design: MechaCar vs Competition
+When buying a car, consumers are looking at many factors such as gas, model, safety, the year of the car, etc. Now in days, to maintain a car is expensive because everything is going up. Therefore, the consumers will be looking to buy a car that helps them economically to transport themselves on a regular daily basis with no problem (for the most part).
+
+-Metric to test: because the consumer wants a car that can help them economically, we should measure MechaCars carrying capacity in cubic inches. This is to measure how big the car is.
+- Null and Alternate Hypothesis: The null hypothesis would be that, all vehicles of the same class has the same carrying capacity. The Alternate hypothesis would be, MechaCar's carrying capacity is above of the competitots vehicle.
+- Statistical test used: Two- sample t-tests
+- Data needed: for the data, we would be the measurements of the cubic space from the car such as the compartments, seats, etc. 
